@@ -1,0 +1,54 @@
+.container {
+  width: inherit;
+  height: inherit;
+  min-height: 100%;
+  background: black
+}
+
+.login_box {
+  width: 300px;
+  height: 400px;
+  margin: auto;
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  padding: 10px;
+}
+
+.logo_container {
+  width: fit-content;
+  height: 50%;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  position: absolute;
+  right: 0%;
+  left: 0%;
+}
+
+.log_in_button{
+  background-color: black;
+  color: white;
+  border: none;
+  min-width: 200px;
+}
+
+.form_controls{
+  height: 30%;
+}
+
+.form_control{
+  margin: 10px;
+}
+
+.form_actions{
+  height: 20%;
+}

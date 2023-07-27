@@ -1,0 +1,27 @@
+
+.navbar {
+list-style: none;
+position: sticky;
+top: 100px;
+width: 100%;
+padding: 10px;
+padding-bottom: 0%;
+margin: auto;
+border-bottom: 1px solid;
+}
+
+.nav_items{
+    display: inline-block;
+    margin: 1px;
+    margin-bottom: auto;
+    width: 10%;
+    padding: 10px;
+    background-color: white;
+    transition: 0.25s;
+    cursor:pointer;
+}
+
+.nav_items:hover{
+    background-color: black;
+    color: white;
+}
